@@ -1,0 +1,1 @@
+i have used CHATGPT and copilot to assist me in the fixing of the looks of the website and to help me with some errors i came accros such as not showing the greeting text of morning or evening time and with some problems of interactive buttons not workinng the benfits it teached me more easier and simpler ways of himplementing my ideas.

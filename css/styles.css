@@ -1,0 +1,116 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f0f2f5;
+  color: #333;
+}
+.container {
+  width: min(900px, 92%);
+  margin: 0 auto;
+}
+
+/* Header */
+.site-header {
+  background: linear-gradient(135deg, #0077cc, #005fa3);
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-bottom: 1.5rem;
+}
+.site-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+.tagline {
+  margin: 0.5rem 0 1rem;
+  font-size: 1.1rem;
+}
+.site-header nav a {
+  margin: 0 0.6rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.site-header nav a:hover { text-decoration: underline; }
+
+/* Sections */
+.box {
+  background: #fff;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+h2 { margin-top: 0; }
+.muted { color: #666; }
+
+/* Projects grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.card {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem;
+  text-align: center;
+}
+.card img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: .5rem;
+}
+
+/* Hobbies list */
+#hobbies ul {
+  list-style: none;
+  padding: 0;
+}
+#hobbies li {
+  padding: 0.4rem 0;
+  font-size: 1.05rem;
+}
+
+/* Contact form */
+form {
+  display: grid;
+  gap: 1rem;
+}
+label {
+  display: block;
+  font-weight: bold;
+}
+input, textarea {
+  width: 100%;
+  padding: .6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font: inherit;
+}
+button {
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  padding: .7rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+button:hover { background: #005fa3; }
+#formNote {
+  font-size: .9rem;
+  margin-top: .5rem;
+}
+
+/* Footer */
+.site-footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
