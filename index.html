@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yazed Al-Mutairi — Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
 
+  <!-- Header section-->
+  <header class="site-header">
+    <div class="container">
+      <h1>Yazed Al-Mutairi</h1>
+      <p class="Welcoming">Welcome to my portfolio website</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  
+  <main class="container">
+    <!-- About me section-->
+    <section id="about" class="box">
+      <h2>About Me</h2>
+       <p id="greeting">
+      <p>Hello! I'm <strong>Yazed Al-Mutairi</strong>. I Computer science student at KFUPM.
+    </section>
+
+
+    
+    <!-- Projects section -->
+    <section id="projects" class="box">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="assets/logo.png" alt="Project One">
+          <h3>Project One</h3>
+          <p>website that has backend and database for the SAR for ICS 321 course</p>
+        </div>
+        <div class="card">
+          <img src="assets/download.png" alt="Project Two">
+          <h3>Project Two</h3>
+          <p>making a dropping ball game with javafx for the ICS 108 course</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Hobbies section -->
+    <section id="hobbies" class="box">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>3D modeling with Blender</li>
+        <li>Photography</li>
+        <li>Gaming</li>
+        <li>Judo</li>
+      </ul>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="box">
+      <h2>Contact</h2>
+      <form id="contactForm" novalidate>
+        <label>Name
+          <input type="text" name="name" required />
+        </label>
+        <label>Email
+          <input type="email" name="email" required />
+        </label>
+        <label>Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit">Send</button>
+        <p id="formNote" hidden></p>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p><span id="year"></span> Yazed Al-Mutairi</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
